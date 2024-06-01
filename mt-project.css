@@ -6,7 +6,7 @@ html{
     scroll-behavior: smooth;
 }
 section{
-    width: 100%;
+    width: 95%;
     height: 100vh;
 }
 section nav{
@@ -89,7 +89,7 @@ section .main .slider{
 section .main .slider img{
     display: flex;
     margin-top: -1.5rem;
-    width: 1580px;
+    width: 1200px;
     height: 650px;
     position: relative;
     
@@ -121,7 +121,7 @@ section .main .slider img{
     grid-gap: 15px;
 }
 .menu .menu_box .menu_card{
-    width: 325px;
+    width: 300px;
     height: 480px;
     padding-top: 10px;
     margin-bottom: 20px;
@@ -192,7 +192,7 @@ section .main .slider img{
     justify-content: space-around;
 }
 .about .about_main .image img{
-    width: 800px;
+    width: 600px;
     height: 450px;
     position: relative;
     top: 135px;
@@ -229,6 +229,57 @@ section .main .slider img{
     font-size: xx-large;
     color: darkgray;
 }
+
+
+/* Hirrar */
+.hirrar
+{
+    width: 100%;
+    padding: 70px 0;
+    background-color: #233142;
+    color: #fac031;
+    text-align: center;
+}
+
+.hirrar h1
+{
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.hirrar p 
+{
+    font-size: 20px;
+}
+
+.hirrar a 
+{
+    color: #fac031;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    display: block;
+}
+
+.hirrar a:hover {
+    color: red;
+}
+
+/* Images Container */
+.images-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.images-container img {
+    width: 500px;
+    height: 400px;
+    margin: 0 35px;
+    border-radius: 10px;
+}
+
+
 
 
 /* Financial Statement */
